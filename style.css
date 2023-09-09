@@ -18,7 +18,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  background-color: #eef1f6;
+  background-color: #7e7e7e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,14 +42,15 @@ li {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1000px;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #000000;
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   border-radius: 1rem;
 }
 
@@ -70,14 +71,14 @@ li {
 #submit {
   width: 100%;
   height: 5rem;
-  background-color: #8e44ad;
+  background-color: rgba(255, 0, 0, 0.548);
   border: none;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   color: #ffffff;
 }
 #submit:hover {
-  background-color: #67367b;
+  background-color: red;
   cursor: pointer;
 }
 .title,
